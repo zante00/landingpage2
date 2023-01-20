@@ -4,20 +4,28 @@ body{
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
-    padding: 25px 100px;
 }
 
+.hero, .footer, .middle, .bottom, .call-container, .quote, .speaker{
+    padding: 0 100px;
+}
 
 .hero, .footer{
     background-color: #1f2937;
 }
 
+.top, .middle, .bottom, .call-container{
+    padding: 50px 0;
+}
+
 .header, .top{
     display: flex;
     justify-content: space-between;
-    
 }
 
+.header{
+    padding: 25px 0;
+}
 
 .top-left, .top-right{
     width: 500px;
@@ -154,4 +162,5 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 25px 0;
 }
