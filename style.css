@@ -4,24 +4,20 @@ body{
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
+    padding: 25px 100px;
 }
+
 
 .hero, .footer{
     background-color: #1f2937;
 }
 
-.header{
+.header, .top{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 16px 0;
-    margin-bottom: 100px;
+    
 }
 
-.top{
-    display: flex;
-    justify-content: space-between;
-}
 
 .top-left, .top-right{
     width: 500px;
@@ -91,7 +87,7 @@ h2{
     padding: 0;
 }
 
-.header-links, .top-text{
+.header-links, .top-text, .footer{
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -107,6 +103,9 @@ button, .call{
     color: white;
     border-radius: 5px;
     font-weight: bold;
+}
+
+button{
     padding: 8px 16px;
 }
 
@@ -118,6 +117,8 @@ button, .call{
 
 .bottom{
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote{
@@ -125,4 +126,32 @@ button, .call{
     font-style: italic;
     color: #1f2937;
     font-weight: 200;
+    align-self: center;
+}
+
+.speaker{
+    align-self: end;
+    font-weight: bold;
+}
+
+.call-container{
+    display: flex;
+    justify-content: center;
+}
+
+.call{
+    padding: 20px 50px;
+    width: 500px;
+    display: flex;
+}
+
+.call-right{
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
